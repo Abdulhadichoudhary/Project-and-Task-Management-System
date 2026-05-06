@@ -65,7 +65,7 @@ function renderAuth(mode = "login", error = "") {
   app.innerHTML = `
     <section class="auth-shell">
       <div class="auth-panel">
-        <h1>Team Task Manager</h1>
+        <h1>Project Task Manager</h1>
         <p>Create projects, assign work, and keep delivery visible.</p>
         <div class="tabs">
           <button class="${mode === "login" ? "active" : ""}" data-auth-tab="login">Login</button>
